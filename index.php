@@ -8,13 +8,13 @@
 <title>新版柯林签到机</title>
 </head>
 <body>
-<div class="title">柯林签到机(密码版) [ <a href="javascript:history.back();">返回</a> ]</div>
+<div class="title">柯林签到机</div>
 <div class="content"><form action='qd.php' method='GET'>
 网站域名:（不要加“http://”）<br/>
 <input type='text' name='ym' class="txt"/>
 <br/>用户名/手机/id:<br/>
 <input type='text' name='user' class="txt"/>
-<br/>密码: [<a href="../klqd/">切换SID模式</a>]<br/>
+<br/>密码:<br/>
 <input type='text' name='pwd' class="txt"/>
 <br/>签到内容:<br/>
 <input type='text' name='txt' class="txt"/>
@@ -22,7 +22,8 @@
 <input type='text' name='siteid' value='1000' class="txt"/>
 <p><input type='submit' id='submit' value='签到'/><input type="reset" value="重填" /></p></form>
 </div>
-<div class="read">提示：网站域名格式如mrp6688.52n.cn<br/>
-<br/>将提交后的网址添加到 <a href="http://cron.aliapp.com/">网络任务</a> 即可每天自动签到。
+<div class="read">提示：网站域名格式如mrpyx.cn<br/>
+<br/>将提交后的网址添加到监控网站即可每天自动签到。
 </div>
-<?php include '../../sign/foot.php';?>
+</body>
+</html>
